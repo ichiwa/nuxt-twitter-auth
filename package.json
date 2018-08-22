@@ -1,0 +1,32 @@
+{
+  "name": "nuxt-twitter-auth",
+  "version": "1.0.0",
+  "description": "Nuxt.js project",
+  "author": "ichiwa",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
+    "precommit": "npm run lint"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.3",
+    "cookie-parser": "^1.4.3",
+    "express-session": "^1.15.6",
+    "morgan": "^1.9.0",
+    "nuxt": "^1.0.0",
+    "passport": "^0.4.0",
+    "passport-twitter": "^1.0.4"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.2.1",
+    "eslint": "^4.15.0",
+    "eslint-friendly-formatter": "^3.0.0",
+    "eslint-loader": "^1.7.1",
+    "eslint-plugin-vue": "^4.0.0"
+  }
+}
