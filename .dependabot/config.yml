@@ -1,0 +1,12 @@
+version: 1
+update_configs:
+- allowed_updates:
+  - match:
+      update_type: security
+  default_labels:
+  - dependencies
+  directory: "/"
+  package_manager: javascript
+  target_branch: master
+  update_schedule: live
+  version_requirement_updates: increase_versions
