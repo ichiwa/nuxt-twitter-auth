@@ -13,7 +13,7 @@
     "precommit": "npm run lint"
   },
   "dependencies": {
-    "axios": "^0.18.1",
+    "axios": "^0.21.1",
     "body-parser": "^1.18.3",
     "cookie-parser": "^1.4.3",
     "express-session": "^1.15.6",
