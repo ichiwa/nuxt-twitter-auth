@@ -6,7 +6,7 @@
 
 ``` bash
 # install dependencies
-$ npm install # Or yarn install
+$ yarn install
 ```
 
 ### In Twitter
