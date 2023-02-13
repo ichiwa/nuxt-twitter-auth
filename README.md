@@ -23,7 +23,7 @@ Create Twitter app and set callback url = http://127.0.0.1:3000/callback
 
 ### serve with hot reload at localhost:3000
 ``` bash
-$ npm run dev
+$ yarn dev
 ```
 
 ## DEMO
